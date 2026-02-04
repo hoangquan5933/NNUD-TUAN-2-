@@ -1,0 +1,17 @@
+img.thumb {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.tooltip-desc {
+  position: absolute;
+  background: black;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  display: none;
+  max-width: 300px;
+  z-index: 1000;
+}
